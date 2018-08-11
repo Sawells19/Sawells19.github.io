@@ -147,7 +147,7 @@ nav a:first-child{
     border-left: 0 none;
 }
 
-a:hover{ color: blue
+a:hover{ color: #4aaaa5;
 }
 .connectBox{
     float:right;
