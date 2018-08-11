@@ -1,5 +1,6 @@
 html, body{
     height: 100%;
+
 }
 
 #profile {
@@ -17,10 +18,13 @@ body{
     font-size: 18px;
     flex-direction: column;
     margin-top:auto;
+    min-height: 100vh;
 }
 #mainContainer{
     padding-top: 120px;
     margin-top: 30px;
+    flex: 1;
+
 }
 
 .container{
@@ -29,6 +33,8 @@ body{
     margin: 0 auto;
     clear: both;
     text-align: center;
+    flex: 1;
+    
     
 }
 .Titlename{
@@ -98,8 +104,7 @@ footer {
     width:100%;
     clear:both;
     flex: 0;
-    overflow: auto;
-    position: fixed; 
+    overflow: auto; 
     bottom:0;
 }
 
@@ -113,6 +118,7 @@ footer {
     flex: 0;
     overflow: auto;
     position: fixed; 
+    z-index:99;
 }
 
 .box {
@@ -206,6 +212,7 @@ input[type=submit]:hover{
         width: 100%;
         border: 0 none;
         opacity: .8;
+        height: 200px;
     }
 
 .portfolio h3{
@@ -224,6 +231,6 @@ input[type=submit]:hover{
 }
 
 .portfolio:nth-child(odd){
-    margin-right: 40px;
+    margin-right: 35px;
 }
 
