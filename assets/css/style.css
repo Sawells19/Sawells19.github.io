@@ -70,7 +70,7 @@ float: left;
 text-align: left;
 position:static;
 background-color: #ffffff;
-border: 1px #dddddd;
+border: 1px solid #dddddd;
 margin: 0px 0 40px;
 padding: 30px;
 max-width: 650px;
@@ -193,3 +193,37 @@ input[type=submit]:hover{
     background-color:#40928e;
 
     }
+
+.portfolio{
+        float: left;
+        width: 273px;
+        margin: 20px 0 25px;
+        overflow: auto;
+        position: relative;
+
+    }
+.portfolio img{
+        width: 100%;
+        border: 0 none;
+        opacity: .8;
+    }
+
+.portfolio h3{
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 0;
+    font-weight: 300;
+    line-height: 30px;
+    color: white;
+    text-align: center;
+    background: #4aaaa5; 
+    font-size: 22px;
+    
+}
+
+.portfolio:nth-child(odd){
+    margin-right: 40px;
+}
+
